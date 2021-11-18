@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+
+*{
+    margin: 0;    
+    padding: 0;
+}
+
+body{
+    /*width: 95%;
+    max-width: 1240px;*/
+	font-family: 'Roboto', sans-serif;
+	background-color: #f6f6f6;
+}
+
+.product-filter {
+    background-color: aqua;
+    display: flex;
+}
+
+.product-filter h1 {
+    background-color: blueviolet;
+    flex-grow: 1;  /*Para expandir el contenedor de flex a todo lo ancho y se expanda a todo el espacio restante (esto hace que los dropdowns se alineen a la dcha).*/
+}
+
+.sort {
+    display: flex; /*Para alinear los dropdowns (elementos hijos) horizontalmente uno al lado del otro.*/
+}
+
+.collection-sort {
+    display: flex;   /*Convertir cada contenedor del dropdown en un contenedor flex*/
+    flex-direction: column;   /*Para alinear los filtros verticalmente*/
+}
+
+.products{
+    background-color: coral;
+    display: flex;   /*Se convierte en contenedor flex, que alinea los elementos hijos en fila desde la izda*/
+    flex-wrap: wrap;   /*Cuando se reduzca el viewport los elementos hijos se dividirán en las filas necesarias*/
+}
+
+.product-card{   
+    /*También se puede resumer en:  flex: 1 16%; */
+    background-color: darkgoldenrod;
+    padding: 2%;
+    flex-grow: 1;  /*En fila siempre que se pueda.*/
+    flex-basis: 16%; /*Ancura de cada caja*/
+    display: flex;  /*flex para sus elementos hijo*/
+}
+
+.product-image img {
+    max-width: 100%;  /*Para asegurarse que las imágenes encajan completamente*/
+}
+
+.product-info {
+    margin-top: auto;  /*Para que h5 y h6 se pongan debajo de la imágen*/
+}
+
+
+/*@media (max-width: 920px) {
+    .product-card {
+      flex: 1 21%;
+    }
+}*/
