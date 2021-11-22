@@ -7,12 +7,15 @@
 
 body {
     margin: auto;
-    width: 90%;
+    width: 100%;
     font-family: 'Roboto', sans-serif;
     background-color: #e2e2e2;
 }
 
-/* Typography */
+main{
+    margin: 3% 2%;
+}
+
 
 h1 {
     font-size: 28px;
@@ -29,8 +32,6 @@ h6 {
     color: rgb(99, 98, 98);
     font-size: 14px;
 }
-
-/* Product Layout */
 
 .product-filter {
     display: flex;
@@ -86,6 +87,7 @@ label {
 .product-card:nth-child(1){
     background-image: url(../img/pexels-anni-roenkae-2832432.jpg);
     background-size: cover;
+    min-width: 20%;
 }
 
 .product-card:nth-child(1) img{
@@ -118,7 +120,7 @@ label {
     content: 'Lee un libro';
     position: absolute;
     top: 47%;
-    left: 5%;
+    left: 0%;
     box-sizing: content-box;
 }
 
@@ -141,8 +143,8 @@ label {
     text-align: left;
     content: 'novedades';
     position: absolute;
-    top: 53%;
-    left: 5%;
+    top: 75%;
+    left: 0%;
     box-sizing: content-box;
 }
 

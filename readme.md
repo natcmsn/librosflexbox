@@ -8,3 +8,5 @@ Por qué hay 3 documentos CSS:
 styles.css es el primero, pero llegados a un punto dejó de hacer flex.
 styles2.css es la guía
 styles3.css es la nueva versión. La definitiva.
+
+Tras hacer el ejercicio (que corresponde al main), añadí header y footer de la web plantilla.
