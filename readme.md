@@ -1,4 +1,4 @@
-I will create a flexible and responsive product layout with Flexbox that will bring focus to products (jackets) depending on the viewport width. 
+Objetivo: create a flexible and responsive product layout with Flexbox that will bring focus to products (books) depending on the viewport width. 
 
 Uso las webs: 
 https://css-tricks.com/designing-a-product-page-layout-with-flexbox/
@@ -9,4 +9,4 @@ styles.css es el primero, pero llegados a un punto dejó de hacer flex.
 styles2.css es la guía
 styles3.css es la nueva versión. La definitiva.
 
-Tras hacer el ejercicio (que corresponde al main), añadí header y footer de la web plantilla.
+Al terminar añado el header y footer de la web de shopify.
